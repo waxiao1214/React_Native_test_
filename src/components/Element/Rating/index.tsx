@@ -18,11 +18,12 @@ interface RatingProps {
 
 const StarRating = (props:RatingProps) => {
   const { value, getValue, half, spacing, size, readOnly } = props;
+  const starValue = Math.floor(value) === value ? value : Math.floor(value) + 0.5
   return (
     <View style={styles.root}>
       <Stars
         half={half}
-        default={value}
+        default={starValue}
         update={(value:number) => getValue && getValue(value)}
         spacing={spacing}
         starSize={size}

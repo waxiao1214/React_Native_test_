@@ -1,4 +1,9 @@
 {
   "name": "Test",
-  "displayName": "Test"
+  "displayName": "Test",
+  "expo": {
+    "packagerOpts": {
+      "config": "metro.config.js"
+    }
+  }
 }
