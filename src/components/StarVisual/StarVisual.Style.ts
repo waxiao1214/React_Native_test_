@@ -1,12 +1,8 @@
 import { StyleSheet } from 'react-native';
 
-const UserRatingStyle = StyleSheet.create({
-  container: {
-    flex: 1,
-    paddingLeft: 20,
-    paddingRight: 20,
+const StarVisualStyles = StyleSheet.create({
+  root: {
     backgroundColor: '#25233D',
-    overflow: 'hidden',
   },
   m18: {
     marginTop: 18
@@ -31,9 +27,6 @@ const UserRatingStyle = StyleSheet.create({
   white: {
     color: 'white',
   },
-  gray: {
-    color: "#666577"
-  }
 })
 
-export default UserRatingStyle;
+export default StarVisualStyles;

@@ -32,7 +32,7 @@ const Party = (props:PostProps) => {
           <View style={{...styles.row, ...styles.m1}}>
             <Feather name="map-pin" size={16} color="#666577"/>
             <Text style={{...styles.title, marginLeft: 6}}>{location}</Text>
-            <Text style={{...styles.title, marginLeft: 10}}>{distance}</Text>
+            <Text style={{...styles.title, ...styles.gray, marginLeft: 10}}>{distance}</Text>
           </View>
           <View style={{...styles.row, ...styles.m1}}>
             <Feather name="users" size={16} color="#666577"/>

@@ -9,6 +9,7 @@
  */
 
 import React from 'react';
+import { StyleSheet, Text, SafeAreaView, ScrollView } from 'react-native';
 import 'react-native-gesture-handler';
 import Container from './containers';
 

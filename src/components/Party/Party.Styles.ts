@@ -14,6 +14,9 @@ const PostStyles = StyleSheet.create({
     paddingRight: 10,
     flex: 1
   },
+  gray: {
+    color: '#666577'
+  },
   pl_1: {
     paddingLeft: 4
   },

@@ -1,12 +1,14 @@
 import React from 'react';
-import { Text, View } from 'react-native'; 
+import { SafeAreaView, View, FlatList, StyleSheet, Text, StatusBar } from 'react-native';
 import styles from './PartyRating.Style';
 
 const PartyRating = () => {
   return(
-    <View style={styles.root}>
-      <Text>Party Rating</Text>
-    </View>
+    <SafeAreaView style={styles.container}>
+      <View style={styles.root}>
+        <Text>Party Rating</Text>
+      </View>
+    </SafeAreaView>
   )
 }
 
