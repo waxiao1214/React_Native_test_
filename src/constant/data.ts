@@ -59,7 +59,7 @@ export const reviews = [
         image: VOTER3,
         rating: 3,
         voter: "Markus Lanze",
-        commit: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at. 23 m",
+        commit: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at.",
         edited: false,
       },
       {
@@ -67,7 +67,7 @@ export const reviews = [
         image: VOTER1,
         voter: "Markus Lanze",
         rating: 4,
-        commit: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at. 23 m",        
+        commit: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at.",        
         edited: true,
       },
       {
@@ -75,7 +75,7 @@ export const reviews = [
         image: VOTER2,
         voter: "Markus Lanze",
         rating: 5,
-        commit: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at. 23 m",        
+        commit: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at.",        
         edited: false,
       },
       {
@@ -83,7 +83,7 @@ export const reviews = [
         image: VOTER3,
         rating: 3,
         voter: "Markus Lanze",
-        commit: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at. 23 m",        
+        commit: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at.",        
         edited: false,
       },
       {
@@ -91,7 +91,7 @@ export const reviews = [
         image: VOTER1,
         voter: "Markus Lanze",
         rating: 4,
-        commit: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at. 23 m",        
+        commit: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at.",        
         edited: true,
       },
     ],
@@ -104,7 +104,7 @@ export const reviews = [
         image: VOTER2,
         voter: "Markus Lanze",
         rating: 5,
-        commit: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at. 23 m",        
+        commit: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at.",        
         edited: false,
       },
       {
@@ -112,7 +112,7 @@ export const reviews = [
         voter: "Markus Lanze",
         image: VOTER3,
         rating: 3,
-        commit: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at. 23 m",        
+        commit: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at.",        
         edited: false,
       },
       {
@@ -120,7 +120,7 @@ export const reviews = [
         voter: "Markus Lanze",
         image: VOTER2,
         rating: 4,
-        commit: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at. 23 m",        
+        commit: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at.",        
         edited: true,
       },
       {
@@ -128,7 +128,7 @@ export const reviews = [
         image: VOTER1,
         rating: 5,
         voter: "Markus Lanze",
-        commit: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at. 23 m",        
+        commit: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at.",        
         edited: false,
       },
       {
@@ -136,7 +136,7 @@ export const reviews = [
         image: VOTER3,
         rating: 3,
         voter: "Markus Lanze",
-        commit: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at. 23 m",        
+        commit: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at.",        
         edited: true,
       },
       {
@@ -144,7 +144,7 @@ export const reviews = [
         image: VOTER2,
         rating: 4,
         voter: "Markus Lanze",
-        commit: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at. 23 m",        
+        commit: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at.",        
         edited: false,
       },
     ],
@@ -157,7 +157,7 @@ export const reviews = [
         image: VOTER1,
         rating: 5,
         voter: "Markus Lanze",
-        commit: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at. 23 m",        
+        commit: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at.",        
         edited: false,
       },
       {
@@ -165,7 +165,7 @@ export const reviews = [
         image: VOTER2,
         rating: 3,
         voter: "Markus Lanze",
-        commit: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at. 23 m",        
+        commit: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at.",        
         edited: true,
       },
       {
@@ -173,7 +173,7 @@ export const reviews = [
         image: VOTER3,
         rating: 4,
         voter: "Markus Lanze",
-        commit: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at. 23 m",        
+        commit: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at.",        
         edited: false,
       },
       {
@@ -181,7 +181,7 @@ export const reviews = [
         image: VOTER2,
         rating: 5,
         voter: "Markus Lanze",
-        commit: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at. 23 m",        
+        commit: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt fermentum blandit nibh rhoncus at.",        
         edited: false,
       },
     ],
