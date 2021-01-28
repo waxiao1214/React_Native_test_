@@ -12,10 +12,11 @@ interface CommentProps {
   score:number,
   edited?:boolean,
   voter:string,
+  beforeTime:string
 }
 
 const Comment = (props:CommentProps) => {
-  const { text, image, score, edited, voter } = props
+  const { text, image, score, edited, voter, beforeTime } = props
   return (
     <>
       <View style={styles.root}>
@@ -26,10 +27,11 @@ const Comment = (props:CommentProps) => {
           </View>
           <Text style={{...styles.contentTitle, ...styles.white}}>
             <Text style={{...styles.bold, ...styles.white}}>{voter}</Text>
-            {` ${text} `}
+            <Text>{` ${text} `}</Text>
+            <Text style={{...styles.gray}}>{`  ${beforeTime}`}</Text>
             { edited && 
-            <Text style={{...styles.gray, ...styles.ml}}>
-              {`(Edited) `}
+            <Text style={{...styles.gray}}>
+              {`    (Edited)`}
               <Feather name="edit-3" color="#666657"/>
             </Text> }
           </Text>

@@ -25,7 +25,7 @@ const ReviewStyles = StyleSheet.create({
     color: "#666577"
   },
   ml: {
-    marginLeft: 10
+    marginLeft: 20
   },
   contentTitle: {
     fontSize: 14,

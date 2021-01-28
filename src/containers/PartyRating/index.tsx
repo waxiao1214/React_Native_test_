@@ -19,7 +19,7 @@ const PartyRating = (props:any) => {
   }, [filteredReviews, postReviews])
   
   const renderItem = ({item}:any) => (
-    <Comment score={item.rating} text={item.commit} image={item.image} voter={item.voter} edited={item.edited}/>
+    <Comment score={item.rating} text={item.commit} image={item.image} voter={item.voter} edited={item.edited} beforeTime={item.beforeTime}/>
   )
 
   return(
