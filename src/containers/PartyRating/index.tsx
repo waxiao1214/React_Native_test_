@@ -1,5 +1,5 @@
 import React from 'react';
-import { SafeAreaView, View, FlatList, StyleSheet, Text, StatusBar } from 'react-native';
+import { SafeAreaView, FlatList, Text } from 'react-native';
 import Party from '../../components/Party';
 import Comment from '../../components/comment'
 import StarVisual from '../../components/StarVisual'
@@ -19,7 +19,7 @@ const PartyRating = (props:any) => {
   }, [filteredReviews, postReviews])
   
   const renderItem = ({item}:any) => (
-    <Comment score={item.rating} text={item.commit} image={item.image}/>
+    <Comment score={item.rating} text={item.commit} image={item.image} voter={item.voter} edited={item.edited}/>
   )
 
   return(
@@ -35,8 +35,7 @@ const PartyRating = (props:any) => {
         userImage={user.image}
       />
       <StarVisual value={post.score} ratings={post.reviews}/>
-      {moreCount > 0 && 
-        <Text 
+      {moreCount > 0 &&  <Text 
           style={styles.moreView}
           onPress={() => setFilteredReviews(postReviews)}
         >
@@ -53,4 +52,3 @@ const PartyRating = (props:any) => {
 }
 
 export default PartyRating
-

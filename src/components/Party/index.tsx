@@ -3,7 +3,8 @@ import { Text, View } from 'react-native';
 import { Image } from 'react-native-elements';
 import Feather from 'react-native-vector-icons/Feather';
 import styles from './Party.Styles';
-
+import ClosedCommercialIcon from '../Element/ClosedCommercialIcon';
+import RatingMark from '../Element/RatingMark';
 interface PostProps {
   title:string,
   voter:string,
@@ -21,6 +22,12 @@ const Party = (props:PostProps) => {
     <>
       <View style={styles.root}>
         <Image source={backImage} style={{ width: 112, height: 112 }}/>
+        <View style={styles.commercial}>
+          <ClosedCommercialIcon />
+        </View>
+        <View style={styles.rating_mark}>
+          <RatingMark text="11/24"/> 
+        </View>
         <View style={styles.content}>
           <Text style={{...styles.title, ...styles.bold}}>
             {title}

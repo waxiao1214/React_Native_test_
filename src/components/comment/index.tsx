@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, View } from 'react-native';
 import { Image } from 'react-native-elements';
 import Entypo from 'react-native-vector-icons/Entypo';
-import IonIcon from 'react-native-vector-icons/Ionicons';
+import Feather from 'react-native-vector-icons/Feather';
 import Rating from '../Element/Rating';
 import styles from './Comment.Style';
 
@@ -10,11 +10,12 @@ interface CommentProps {
   text:string,
   image:any,
   score:number,
-  edited?:boolean
+  edited?:boolean,
+  voter:string,
 }
 
 const Comment = (props:CommentProps) => {
-  const { text, image, score, edited } = props
+  const { text, image, score, edited, voter } = props
   return (
     <>
       <View style={styles.root}>
@@ -24,10 +25,13 @@ const Comment = (props:CommentProps) => {
             <Rating value={score} half={false} size={11} spacing={12} readOnly />
           </View>
           <Text style={{...styles.contentTitle, ...styles.white}}>
-            {text}
-            {edited && 
-              <Text style={styles.gray}>(Edited)</Text>
-            }
+            <Text style={{...styles.bold, ...styles.white}}>{voter}</Text>
+            {` ${text} `}
+            { edited && 
+            <Text style={{...styles.gray, ...styles.ml}}>
+              {`(Edited) `}
+              <Feather name="edit-3" color="#666657"/>
+            </Text> }
           </Text>
         </View>
         <Entypo name="dots-three-vertical" size={16} color="#666657" />

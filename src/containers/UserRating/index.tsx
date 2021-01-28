@@ -23,7 +23,7 @@ const Item = ({item, navigation}:any) => (
         <View style={{marginLeft: -6}}>
           <Rating value={item.score} half={true} size={18} spacing={12} readOnly />
         </View>
-        <Text style={{...styles.white, marginLeft: 20}}>20 ratings</Text>
+        <Text style={{...styles.white, marginLeft: 20}}>{`${item.reviews} ratings`}</Text>
       </View>
       <Text style={styles.gray} 
         onPress={() => navigation.navigate('Party Rating', { id: item.id })} 

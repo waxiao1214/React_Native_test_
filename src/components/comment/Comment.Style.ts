@@ -24,10 +24,16 @@ const ReviewStyles = StyleSheet.create({
   gray: {
     color: "#666577"
   },
+  ml: {
+    marginLeft: 10
+  },
   contentTitle: {
     fontSize: 14,
     marginTop: 10,
     lineHeight: 17,
+  },
+  bold: {
+    fontWeight: "bold",
   }
 })
 

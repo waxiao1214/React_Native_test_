@@ -6,6 +6,7 @@ const PostStyles = StyleSheet.create({
     backgroundColor: "#201F34",
     overflow: 'hidden',
     flexDirection: 'row',
+    position: 'relative'
   },
   content: {
     paddingTop: 10,
@@ -13,6 +14,16 @@ const PostStyles = StyleSheet.create({
     paddingBottom: 10,
     paddingRight: 10,
     flex: 1
+  },
+  commercial: {
+    position: 'absolute',
+    top: 10,
+    left: 10
+  },
+  rating_mark: {
+    position: 'absolute',
+    bottom: 12,
+    left: 10
   },
   gray: {
     color: '#666577'
