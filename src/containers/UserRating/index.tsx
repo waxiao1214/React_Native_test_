@@ -26,9 +26,7 @@ const Item = ({item, navigation}:any) => (
         <Text style={{...styles.white, marginLeft: 20}}>20 ratings</Text>
       </View>
       <Text style={styles.gray} 
-        onPress={() => {
-          navigation.navigate('Party Rating', { id: item.id })
-        }}
+        onPress={() => navigation.navigate('Party Rating', { id: item.id })} 
       > 
         Show reviews
       </Text>
@@ -44,7 +42,7 @@ const UserRating = (props:any) => {
 
   return(
     <SafeAreaView style={styles.container}>
-      <StarVisual />
+      <StarVisual value={user.score} ratings={user.rating}/>
       <FlatList
         data={posts}
         renderItem={renderItem} 
